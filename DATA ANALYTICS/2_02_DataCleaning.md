@@ -4,6 +4,7 @@ Data is incomplete, noisy, incosistent, intentional
 MISSING DATA ?
 Due to equipment malfunction, inconsistent, data not entered due to misunderstanding, certain data may not be considered important at the time of entry, not register history or changes, files missing
 
+Steps to clean :-
 1. Parsing : Breakdown
 2. Correcting : Redundant, incosistent
 3. Standardizing : Same units, case

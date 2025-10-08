@@ -17,12 +17,11 @@ by combining multiple features into a single feature.
 2. Lossy 
 
 #### 3. Numerosity Reduction
-1. Parametic : Lil model
-2. Non Parametic
+1. Parametic : Only outliers are stored, regression, linear models
+2. Non Parametic : historams
 
 #### 4. Discretization
-
-This technique involves converting continuous data into discrete data by partitioning the range of possible values into intervals or bins.
+Divides into intervals.
 1. Top down : Splitting
 ![alt text](image-14.png)
 2. Bottom up : Merging

@@ -13,6 +13,8 @@ It holds all information for all business units required,
 
 ----
 #### 2. Data Mart
+
+![alt text](image-24.png)
 An element of a Data Warehouse system designed  
 to hold data from a particular business division, department or user type.  
 

@@ -1,4 +1,8 @@
 # Schema
+![alt text](image-25.png)
+
+![alt text](image-26.png)
+
 
 #### 1. Star Schema
 The star schema is the simplest and most commonly used data warehouse schema. It consists of a central fact table surrounded by dimension tables.
