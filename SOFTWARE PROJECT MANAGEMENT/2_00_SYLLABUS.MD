@@ -1,0 +1,2 @@
+Steps in project initiation, Business Case, Project Charter, Steps in project planning; Team Contract, Defining scope 
+and objectives; work breakdown structure; Deliverables and other products; time, cost, and resource estimation. 
