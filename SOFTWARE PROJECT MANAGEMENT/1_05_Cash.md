@@ -1,3 +1,120 @@
+Here’s your **clean, exam-ready notes version** of that section 👇
+
+---
+
+# 📘 **2.3 Discounted Cash Flow vs. Net Profit or Return on Investment**
+
+---
+
+### 💡 **Concept Overview**
+
+**Discounted Cash Flow (DCF)** techniques are considered **better for project selection** than **Net Profit** or **Return on Investment (ROI)** because they **account for the Time Value of Money (TVM)**.
+
+> **Time Value of Money (TVM)** means that a sum of money **today** is worth **more than the same sum in the future**, because money today can be invested to earn returns.
+
+**Net Profit** and **ROI** methods ignore this — they treat all cash flows as if they occur at the same time, which gives an incomplete view of project profitability.
+
+---
+
+### ⚙️ **Key DCF Technique: Net Present Value (NPV)**
+
+DCF methods (like NPV) discount all future cash flows back to their **present value** using a **discount rate** (usually the company’s cost of capital).
+This gives a **realistic and accurate measure** of a project’s true profitability.
+
+---
+
+### 🧮 **Formulas**
+
+#### **1. Net Present Value (NPV):**
+
+[
+NPV = \sum_{t=1}^{n} \frac{CF_t}{(1 + r)^t} - C_0
+]
+Where:
+
+* (CF_t) = Cash flow at time *t*
+* (r) = Discount rate
+* (n) = Number of periods
+* (C_0) = Initial investment
+
+#### **2. Return on Investment (ROI):**
+
+[
+ROI = \frac{Net\ Profit}{Initial\ Investment} \times 100
+]
+
+---
+
+### 📊 **Example**
+
+A company considers **two projects (A and B)**.
+Both need an **initial investment = $10,000** and the **discount rate = 10%**.
+
+| **Year**       | **Project A (Cash Flow)** | **Project B (Cash Flow)** |
+| -------------- | ------------------------- | ------------------------- |
+| 1              | $5,000                    | $2,000                    |
+| 2              | $5,000                    | $5,000                    |
+| 3              | $5,000                    | $8,000                    |
+| **Total**      | $15,000                   | $15,000                   |
+| **Net Profit** | $5,000                    | $5,000                    |
+
+---
+
+### **Step 1: ROI Calculation**
+
+[
+ROI_A = ROI_B = \frac{5,000}{10,000} \times 100 = 50%
+]
+👉 Based on ROI — both projects look **equally good**.
+
+---
+
+### **Step 2: NPV Calculation (Using DCF)**
+
+#### For Project A:
+
+[
+NPV_A = \frac{5,000}{1.10} + \frac{5,000}{1.21} + \frac{5,000}{1.331} - 10,000
+]
+[
+NPV_A = 4,545.45 + 4,132.23 + 3,756.57 - 10,000 = \mathbf{+2,434.25}
+]
+
+#### For Project B:
+
+[
+NPV_B = \frac{2,000}{1.10} + \frac{5,000}{1.21} + \frac{8,000}{1.331} - 10,000
+]
+[
+NPV_B = 1,818.18 + 4,132.23 + 6,010.52 - 10,000 = \mathbf{+1,960.93}
+]
+
+---
+
+### ✅ **Result**
+
+* **Project A (NPV = $2,434.25)**
+* **Project B (NPV = $1,960.93)**
+  → Project A is better because it gives **higher NPV (more real value today)**.
+
+---
+
+### 🧠 **Conclusion**
+
+| **Method** | **Considers Time Value of Money?** | **Decision Based On**              |
+| ---------- | ---------------------------------- | ---------------------------------- |
+| Net Profit | ❌ No                               | Total profit after cost            |
+| ROI        | ❌ No                               | % return on total investment       |
+| DCF / NPV  | ✅ Yes                              | Present value of future cash flows |
+
+✅ Therefore, **DCF (NPV)** is the **most accurate and preferred** method for evaluating project profitability.
+
+---
+
+Would you like me to **add this whole section as “Unit 3 – Section 2.3”** in your SPM Notes PDF next?
+
+
+
 | **Method**                     | **What it Considers**              | **Focus**                            |
 | ------------------------------ | ---------------------------------- | ------------------------------------ |
 | **Net Profit**                 | Simple profit after costs          | Ignores time value of money          |
