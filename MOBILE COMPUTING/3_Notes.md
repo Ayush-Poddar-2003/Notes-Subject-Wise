@@ -11,7 +11,7 @@ Examples:
 
 ### Benefits:
 - Automatic backups  
-- High availability  
+- High availability  B
 - Easy scaling  
 - No hardware required  
 - Pay-as-you-go model  
