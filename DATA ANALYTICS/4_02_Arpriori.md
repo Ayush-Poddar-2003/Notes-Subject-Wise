@@ -2,29 +2,21 @@
 Frequent Pattern Mining Method  
 To efficiently find frequent itemsets level-wise.
 
+> If an itemset is frequent, all of its subsets must also be frequent.
+
+
 ```
-Step 1: Find all frequent 1-itemsets  
-Check support of individual items.
-
-Step 2: Generate 2-itemset candidates  
-Combine frequent 1-itemsets.
-
-Step 3: Prune  
-Remove itemsets that have any subset not frequent.
-
-Step 4: Count support
-Calculate support for the candidates.
-
-Step 5: Keep those ≥ min support
-Repeat for 3-itemsets, 4-itemsets… until no more itemsets can be formed.
+1. Find individual dataset, and calculate their support
+2. Remove with < min support
+3. Make pairs of items left, anc calculate support
+4. Same above steps untill i itemset left
 ```
 
-![alt text](image-29.png)
-![alt text](image-30.png)
-![alt text](image-31.png)
-![alt text](image-32.png)
-![alt text](image-34.png)
+![alt text](image-52.png)
 
-**Weakness of Apriori ?**  
-Many scans of the database  
-Too many candidate sets
+```
+5. Make combination as (a^b)->c
+6. Calculate confidence and remove if less than threshold
+7. You are left with association rules.
+```
+![alt text](image-53.png)

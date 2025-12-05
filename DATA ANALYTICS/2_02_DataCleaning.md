@@ -1,14 +1,17 @@
-### Data Cleaning ?
-Data is incomplete, noisy, incosistent, intentional
+## <center> DATA CLEANING
+### 1. Missing Values  
+  1. Ignore the complete record
+  2. Filling Manually
+  3. Using gloabal constants NULL or N/A
+  4. Use mean/median
+### 2. Noisy Data
+Noisy data is meaningless, incorrect, or missing data that can interfere with data analysis and model training
 
-MISSING DATA ?
-Due to equipment malfunction, inconsistent, data not entered due to misunderstanding, certain data may not be considered important at the time of entry, not register history or changes, files missing
-
-Steps to clean :-
-1. Parsing : Breakdown
-2. Correcting : Redundant, incosistent
-3. Standardizing : Same units, case
-4. Matching : Same name
-5. Consolidation : Merging
-6. Dealing with missing data
-7. Dealing with incorrect noisy data
+Common methods for data cleaning include:
+1. **BINNING** ![alt text](image-18.png) : Smoothing data by sorting values into "bins" and replacing them with the mean, median, or boundary values of that bin.
+2. **Regression**:  
+Using regression functions to smooth data and identify outliers.
+3. **Outlier analysis**:  
+Detecting and handling outliers using statistical methods or visualization techniques.
+4. **Clustering**: 
+Grouping similar data points and identifying outliers as points that fall outside the clusters. 

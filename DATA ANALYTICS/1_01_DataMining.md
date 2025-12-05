@@ -1,16 +1,3 @@
-
-
-**Data ?**   
-Raw facts and figures.  
-No context or meaning.
-
-
-**Information ?**  
-Processed and meaningful data.  
-Adds context for decision-making.
-
-
-
 ## What Is Data Mining?
 
 Data mining is the process of discovering  
@@ -20,11 +7,6 @@ using statistical, ML, and DB techniques.
 
 > Extracting hidden knowledge from huge data.
 
-Examples
-- Predicting customer behavior  
-- Fraud detection  
-- YouTube recommendations  
-- Market analysis  
 
 ---
 
@@ -34,8 +16,7 @@ Examples
 Structured data stored in tables (rows/columns).  
 
 **2. Data Warehouses ?**  
-Large, historical, integrated datasets, 
-Stored in multidimensional structures (data cubes).  
+Large data repositories, integrated from multiple sources
 
 **3. Transactional Data ?**  
 Generated from real-world transactions.  
