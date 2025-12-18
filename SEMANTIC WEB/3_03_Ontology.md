@@ -58,28 +58,21 @@ Interoperability issues
 
 1. Define the domain
 (College, Hospital, Transport)
-
 2. List classes
 ex: Person, Student, Course
-
 3. Set up hierarchy
 Student → Person
 Faculty → Person
-
 4. Define object properties
 Student → studies → Course
 Faculty → teaches → Course
-
 5. Define data properties
 Person → hasAge
 Student → hasRollNumber
-
 6. Add restrictions & rules
 Student studies at least 1 course
 Course must have exactly 1 teacher
-
 7. Add individuals (instances)
 Ayush, MCA, BTech
-
 8. Run reasoner
 To check logical errors and generate new facts

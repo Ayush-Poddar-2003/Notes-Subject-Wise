@@ -12,6 +12,10 @@ SPARQL is for RDF data graph
 - Requires standard URIs and consistent ontology
 - Query results depend on correct ontology design
 
+Capabilities:
+- Retrieve and filter triples.
+- Support for optional patterns, unions, and reasoning
+
 ---
 ### Tools for SPARQL
 1. **Protégé (with SPARQL plugin)**  
